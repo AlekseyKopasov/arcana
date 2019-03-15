@@ -8,16 +8,363 @@
   <link rel="preload" href="fonts/GothamRounded-Medium.woff2" as="font" type="font/woff2"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css">
-  <title>HTML-CSS-JS BOILERPLATE</title>
+  <title>Arkana</title>
 </head>
 
 <body>
 
-  <header class="main-header"></header>
+  <header class="main-header">
+    <ul class="header-top">
+      <li class="header-top__language"></li>
+      <li class="header-top__search"></li>
+      <li class="header-top__logo"></li>
+      <li class="header-top__share"></li>
+      <li class="header-top__basket"></li>
+    </ul>
 
-  <main class="main-content"></main>
+    <nav class="header-menu">
+      <ul class="header-menu__list">
+        <li class="header-menu__item">Dresses</li>
+        <li class="header-menu__item">Blouses</li>
+        <li class="header-menu__item">Tees & Tops</li>
+        <li class="header-menu__item">T-Shirts</li>
+        <li class="header-menu__item">Outerwear</li>
+        <li class="header-menu__item">Pans</li>
+      </ul>
+    </nav>
+  </header>
 
-  <footer class="main-footer"></footer>
+  <main class="main-content">
+    <h1 class="main-content__headline visually-hidden">Интернет-магазин одежды
+      Arkana</h1>
+
+    <section class="slider">
+      <h2 class="slider__headline visually-hidden">Слайдер</h2>
+    </section>
+
+    <section class="advantages">
+      <h2 class="advantages__headline visually-hidden">Преимущества</h2>
+
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <h3 class="advantages__title">Discount system</h3>
+          <p class="advantages__description">Nam libero tempore, cum soluta
+            nobis est eligendi optio, cumque nihil impedit, quo minus id, quod
+            maxime placeat</p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__title">Free delivery</h3>
+          <p class="advantages__description"> Nam libero tempore, cum soluta
+            nobis est eligendi optio, cumque nihil impedit, quo minus id, quod
+            maxime placeat</p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__title">Support 24/7</h3>
+          <p class="advantages__description"> Nam libero tempore, cum soluta
+            nobis est eligendi optio, cumque nihil impedit, quo minus id, quod
+            maxime placeat</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="promoblock">
+      <h2 class="promoblock__headline visually-hidden">Промоблок: верхняя
+        одежда</h2>
+
+      <ul class="promoblock__list">
+        <li class="promoblock__item">
+          <img src="/" class="promoblock__image" width="100" height="100" alt="">
+          <a href="#" class="promoblock__link">Dresses</a>
+        </li>
+        <li class="promoblock__item">
+          <img src="/" class="promoblock__image" width="100" height="100" alt="">
+          <a href="#" class="promoblock__link">Blouses</a>
+        </li>
+        <li class="promoblock__item">
+          <img src="/" class="promoblock__image" width="100" height="100" alt="">
+          <a href="#" class="promoblock__link">T-Shirts</a>
+        </li>
+        <li class="promoblock__item">
+          <img src="/" class="promoblock__image" width="100" height="100" alt="">
+          <a href="#" class="promoblock__link">Outerwear</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="products">
+      <h2 class="products__headline">Top Trending</h2>
+      <p class="products__description"> Duis aute irure dolor in reprehenderit
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.</p>
+
+      <div class="products__filter">
+        <div class="products__filter-controls">
+          <button class="products__filter-btn" type="button">New products</button>
+          <button class="products__filter-btn" type="button">Prices drop</button>
+          <button class="products__filter-btn" type="button">Best sales</button>
+        </div>
+      </div>
+
+      <ul class="products__list">
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <span class="products__old-price">$ 299.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <span class="products__old-price">$ 299.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <span class="products__old-price">$ 299.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <span class="products__old-price">$ 299.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+        <li class="products__item">
+          <h3 class="products__title">Excepteur sint occaecat cupidatat</h3>
+          <span class="products__price">$ 199.00</span>
+          <img src="/" class="products__image" width="100" height="100" alt="">
+        </li>
+      </ul>
+
+      <a class="products__catalog-link" href="#">All products</a>
+    </section>
+
+    <section class="banner">
+      <h2 class="banner__headline visually-hidden">Banner</h2>
+
+      <div class="banner__image">
+        <img src="/" class="banner__image-img" width="100" height="100" alt="">
+      </div>
+
+      <div class="banner__info">
+        <h3 class="banner__info-title">Bags & Shoes</h3>
+        <p class="banner__info-description">Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="banner__info-link" href="#">Discovery more</a>
+      </div>
+    </section>
+
+    <section class="brands">
+      <h2 class="brands__headline visually-hidden">Производители</h2>
+
+      <ul class="brands__list">
+        <li class="brands__item">
+          <a href="#" class="brands__link">
+            <img src="/" class="brands__logo" width="100" height="100" alt="">
+          </a>
+        </li>
+
+        <li class="brands__item">
+          <a href="#" class="brands__link">
+            <img src="/" class="brands__logo" width="100" height="100" alt="">
+          </a>
+        </li>
+
+        <li class="brands__item">
+          <a href="#" class="brands__link">
+            <img src="/" class="brands__logo" width="100" height="100" alt="">
+          </a>
+        </li>
+
+        <li class="brands__item">
+          <a href="#" class="brands__link">
+            <img src="/" class="brands__logo" width="100" height="100" alt="">
+          </a>
+        </li>
+
+        <li class="brands__item">
+          <a href="#" class="brands__link">
+            <img src="/" class="brands__logo" width="100" height="100" alt="">
+          </a>
+        </li>
+
+        <li class="brands__item">
+          <a href="#" class="brands__link">
+            <img src="/" class="brands__logo" width="100" height="100" alt="">
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="instagram">
+      <h2 class="instagram__headline visually-hidden">Мы в инстаграме</h2>
+      <a href="#" class="instagram__link">#Instagram</a>
+      <ul class="instagram__list">
+        <li class="instagram__item">
+          <img src="/" class="instagram__image" width="100" height="100" alt="">
+        </li>
+        <li class="instagram__item">
+          <img src="/" class="instagram__image" width="100" height="100" alt="">
+        </li>
+        <li class="instagram__item">
+          <img src="/" class="instagram__image" width="100" height="100" alt="">
+        </li>
+        <li class="instagram__item">
+          <img src="/" class="instagram__image" width="100" height="100" alt="">
+        </li>
+        <li class="instagram__item">
+          <img src="/" class="instagram__image" width="100" height="100" alt="">
+        </li>
+        <li class="instagram__item">
+          <img src="/" class="instagram__image" width="100" height="100" alt="">
+        </li>
+      </ul>
+    </section>
+
+    <section class="address">
+      <h2 class="address__headline visually-hidden">Карта</h2>
+      <div class="address__map"></div>
+      <div class="address__description">
+        <p class="address__description-field">Alterego, 1 Infinite Loop,
+          Cupertino, CA 95014</p>
+        <p class="address__description-field">8 - 800 - 2000 - 3000</p>
+        <p class="address__description-field">demo@demo.com</p>
+        <p class="address__description-field">Mon. - Sun: 09:00 - 19:00</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <section class="footer-top">
+      <h2 class="footer-top__headline visually-hidden">Соц. сети и меню</h2>
+
+      <div class="footer__info">
+        <img src="/" class="footer__info-logo" width="100" height="100" alt="">
+      </div>
+      <p class="footer__info-description">Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.</p>
+
+      <ul class="footer__info-social social-list">
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">Facebook</a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">Instagram</a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">Pinterest</a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link">Twitter</a>
+        </li>
+      </ul>
+
+      <div class="footer__navigation">
+
+        <div class="footer__navigation products-nav">
+          <h3 class="products-nav__title">Products</h3>
+          <ul class="products-nav__products">
+            <li class="products-nav__item">
+              <a href="#" class="products-nav__link">Prices drop</a>
+            </li>
+            <li class="products-nav__item">
+              <a href="#" class="products-nav__link">New products</a>
+            </li>
+            <li class="products-nav__item">
+              <a href="#" class="products-nav__link">Best sales</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__navigation info-nav">
+          <h3 class="info-nav__title">Information</h3>
+          <ul class="info-nav__products">
+            <li class="v-nav__item">
+              <a href="#" class="info-nav__link">Delivery</a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link">Legal Notice</a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link">Terms and conditions of use</a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link"></a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link">Terms and conditions of use</a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link">Terms and conditions of use</a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link">Terms and conditions of use</a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link">Terms and conditions of use</a>
+            </li>
+            <li class="info-nav__item">
+              <a href="#" class="info-nav__link">Terms and conditions of use</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="footer__navigation account-nav"></div>
+
+
+
+      </div>
+    </section>
+
+    <section class="footer-bottom payment">
+      <h2 class="footer-bottom__headline visually-hidden">Ваианты оплаты</h2>
+      <ul class="payment__list">
+        <li class="payment__item">
+          <img src="/" class="payment__logo" width="100" height="100" alt="">
+        </li>
+        <li class="payment__item">
+          <img src="/" class="payment__logo" width="100" height="100" alt="">
+        </li>
+        <li class="payment__item">
+          <img src="/" class="payment__logo" width="100" height="100" alt="">
+        </li>
+        <li class="payment__item">
+          <img src="/" class="payment__logo" width="100" height="100" alt="">
+        </li>
+      </ul>
+    </section>
+  </footer>
 
   <script src="js/main.min.js"></script>
 </body>
