@@ -2,8 +2,9 @@
 
 
 ---
-### Скачать макет можно в разделе 
-*[Полезная рассылка HTML Academy №52]:( https://htmlacademy.ru/blog/309-helpful-newsletter-52)
+
+## Скачать макет можно в разделе 
+* [Полезная рассылка HTML Academy №52](https://htmlacademy.ru/blog/309-helpful-newsletter-52)
 
 
 ---
