@@ -3,3 +3,26 @@
   padding: 0;
   list-style: none;
 }
+
+@mixin font-title-medium {
+  font-family: "montserrat-medium", "Arial", "Helvetica", sans-serif;
+  font-size: 11px;
+  line-height: 20px;
+  color: $title-color;
+}
+
+@mixin font-text-regular {
+  font-family: "montserrat-medium", "Arial", "Helvetica", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  color: $text-color;
+}
+
+@mixin font-menu-bold {
+  font-family: "montserrat-semibold", "Arial", "Helvetica", sans-serif;
+  font-size: 11px;
+  line-height: 64px;
+  font-weight: normal;
+  color: $menu-color;
+}

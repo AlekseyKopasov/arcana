@@ -7,7 +7,7 @@
     "@babel/preset-env": "^7.3.1",
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.1.x",
-    "browser-sync": "2.24.x",
+    "browser-sync": "^2.26.3",
     "del": "^3.0.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -30,13 +30,13 @@
     "node-normalize-scss": "^8.0.0",
     "pixel-glass": "^1.0.13",
     "posthtml-include": "^1.2.0",
-    "stylelint": "9.6.x",
+    "stylelint": "^9.10.1",
     "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
-    "eslint": "eslint",
+    "eslint": "eslint .",
     "test": "npm run editorconfig && npm run stylelint && npm run eslint ",
     "build": "gulp build",
     "start": "gulp start"

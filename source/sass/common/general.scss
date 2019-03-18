@@ -2,13 +2,6 @@ body,
 html {
   margin: 0 auto;
   padding: 0;
-
-  // @include font;
-
-  font-size: 15px;
-  font-style: normal;
-  line-height: 18px;
-  color: $text-color;
 }
 
 html {
@@ -17,6 +10,13 @@ html {
 
 body {
   min-width: 1200px;
+
+  @include font-text-regular();
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: $text-color;
 }
 
 *,
