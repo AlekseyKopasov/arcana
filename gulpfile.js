@@ -89,7 +89,7 @@ gulp.task('clean', () => del('build'));
 // Коирование файлов в папку build
 gulp.task('copy', () => gulp.src([
   'source/fonts/**/*.{woff,woff2}',
-  'source/img/**',
+  'source/image/**',
   'source/js/lib/*.js',
 ], {
   base: 'source',
