@@ -1,0 +1,18 @@
+.header-menu__list {
+  @include list-reset();
+
+  display: flex;
+  justify-content: center;
+}
+
+.header-menu__item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header-menu__link {
+  @include font-menu-bold();
+  color: $menu-color;
+  text-transform: uppercase;
+  text-decoration: none;
+}
