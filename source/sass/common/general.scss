@@ -9,7 +9,9 @@ html {
 }
 
 body {
-  min-width: 1200px;
+  min-width: 1920px;
+  padding-left: 35px;
+  padding-right: 35px;
 
   @include font-text-regular();
   font-size: 13px;
