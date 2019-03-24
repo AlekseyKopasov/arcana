@@ -1,0 +1,77 @@
+.slider {
+  width: 100%;
+  padding-top: 337px;
+  background-image: url("/image/index-page/bg_header-slider.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.slider__wrapper {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide {
+  display: none;
+}
+
+.slide--active {
+  display: block;
+}
+
+.slide__headline {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 24px;
+
+  @include font-text-regular();
+  font-size: 56px;
+  line-height: 64px;
+  color: $menu-color;
+  text-align: left;
+}
+
+.slide__descriotion {
+  width: 380px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 47px;
+  @include font-text-regular();
+  font-size: 13px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.slide__button {
+  padding: 18px 57px;
+  margin-bottom: 308px;
+
+  @include font-text-regular();
+  font-size: 11px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #000000;
+}
+
+.slider__button {
+  position: absolute;
+  top: 0;
+  width: 58px;
+  height: 58px;
+  border: 3px solid #ffffff;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+}
+
+.slider__button--left {
+  left: 0;
+}
+
+.slider__button--right {
+  right: 0;
+}
