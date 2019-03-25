@@ -1,17 +1,15 @@
 .slider {
   width: 100%;
-  padding-top: 337px;
   background-image: url("/image/index-page/bg_header-slider.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: center;
+  background-position: top center;
 }
 
 .slider__wrapper {
   width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
-  position: relative;
 }
 
 .slide {
@@ -25,6 +23,7 @@
 .slide__headline {
   margin: 0;
   padding: 0;
+  padding-top: 337px;
   padding-bottom: 24px;
 
   @include font-text-regular();
@@ -34,11 +33,12 @@
   text-align: left;
 }
 
-.slide__descriotion {
+.slide__description {
   width: 380px;
   margin: 0;
   padding: 0;
   padding-bottom: 47px;
+
   @include font-text-regular();
   font-size: 13px;
   line-height: 20px;
@@ -47,7 +47,6 @@
 
 .slide__button {
   padding: 18px 57px;
-  margin-bottom: 308px;
 
   @include font-text-regular();
   font-size: 11px;
@@ -60,7 +59,7 @@
 
 .slider__button {
   position: absolute;
-  top: 0;
+  top: 430px;
   width: 58px;
   height: 58px;
   border: 3px solid #ffffff;
@@ -69,9 +68,24 @@
 }
 
 .slider__button--left {
-  left: 0;
+  left: 10px;
 }
 
 .slider__button--right {
-  right: 0;
+  right: 10px;
+}
+
+.slider__indicators {
+  @include list-reset();
+  display: flex;
+}
+
+.slider__indicators-item {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+}
+
+.slider__indicators-item--active {
+  background-color: #000000;
 }
