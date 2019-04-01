@@ -1,5 +1,6 @@
 .slider {
   width: 100%;
+  min-height: 900px;
   background-image: url("/image/index-page/bg_header-slider.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -7,6 +8,7 @@
 }
 
 .slider__wrapper {
+  position: relative;
   width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
@@ -76,6 +78,10 @@
 }
 
 .slider__indicators {
+  position: absolute;
+  bottom: -300px;
+  left: 0;
+
   @include list-reset();
   display: flex;
 }
